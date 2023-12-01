@@ -131,7 +131,7 @@ public class ventana2 extends javax.swing.JFrame {
     private void mostrarDatos(){
         nombre2.setText(companero.getNombre());
         apellidos2.setText(companero.getApellidos());
-        edad2.setText(companero.getEdad()+"");       
+        edad2.setText(companero.getEdad()+"g");       
     }
     
     public Companero getCompanero(){
